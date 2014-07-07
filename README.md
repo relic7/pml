@@ -1,16 +1,11 @@
 pml
 ===
+Please run code and server from a convenient Terminal or Unix Shell(Bash)
+Then proceed to 
+	http://localhost:9000 
+in your favorite browser.
 
-PML Project
-A PML document is a standard HTML document with one additional feature. Any text between the starting <pml> tag and the ending </pml> tag is interpreted as Python source code.
-There can be multiple PML blocks in a PML file.
-PML blocks will never nest.
-The standard HTML should pass through the parser untouched.
-The code within the PML tags should be executed with the python interpreter.
-A technique should be implemented to write data to the output stream from within the PML. In other words the python code should be able to define the output that will replace the PML.
-Variables and functions declared in one PML block should be available in subsequent PML blocks.
-PML should be able to handle indentation dependent upon the first non-whitespace line of python code.
- 
+
 Example input:
  
 <html>
