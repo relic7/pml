@@ -1,9 +1,10 @@
 #!/usr/bin/env python
-from urlparse import parse_qs
-from cgi import escape
+from views import index, hello
 
 urls = [
     (r'^$', index),
     (r'hello/?$', hello),
-    (r'goodbye/(.+)$', goodbye)
+    #(r'goodbye/(.+)$', goodbye),
+    #(r'testenv/?$', 'testenv')
+    
 ]
